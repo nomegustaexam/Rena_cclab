@@ -15,3 +15,29 @@ canvas {
 .container{
   margin-left: 30px;
 }
+
+.note{
+  font-weight: 350;
+
+  width: 450px;
+	height: 130px;
+
+  border: 2px;
+  border-color: black;
+  border-style: solid;
+
+  background-color: rgb(205, 188, 163);
+
+
+  margin: 30px;
+  padding: 20px;
+
+}
+
+.box2{
+  position: fixed;
+  /* relative fixed to the window */
+  top:10px;
+  right:30px;
+}
+
