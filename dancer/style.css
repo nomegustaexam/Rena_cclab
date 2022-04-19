@@ -8,12 +8,22 @@ canvas {
 }
 
 .heading{
-  
-  margin-left:30px;
+  width: auto;
+  padding: 40px;
+  height: 50px;
+  background-color: darkkhaki;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.title{
+  position: relative;
+  left: 35%;
 }
 
 .container{
-  margin-left: 30px;
+
+  margin-left: 50px;
 }
 
 .note{
