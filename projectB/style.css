@@ -1,7 +1,7 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-color: blanchedalmond;
+  background-color: rgb(58, 56, 54);
 }
 
 canvas {
@@ -17,7 +17,7 @@ canvas {
   width: auto;
   padding: 40px;
   height: 50px;
-  background-color: rgb(48, 46, 57);
+  background-color: rgb(62, 35, 185);
   margin-top: 0;
   margin-bottom: 30px;
 }
