@@ -1,11 +1,33 @@
 html, body {
   margin: 0;
   padding: 0;
+  background-color: rgb(240, 243, 201);
 }
 canvas {
   display: block;
 }
 
 .container{
-  margin-left: 100px;
+
+  margin-left: 25%;
+}
+
+.note{
+  font-weight: 350;
+  left: 30%;
+
+  width: 550px;
+	height: 130px;
+
+  border: 2px;
+  border-color: black;
+  border-style: solid;
+
+  background-color: rgb(205, 188, 163);
+
+  margin-top: 10px;
+  margin-left: 25%;
+  margin-bottom: 20px;
+  padding: 10px;
+
 }
