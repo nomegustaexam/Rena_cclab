@@ -25,7 +25,8 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(600, 600);
+  let cnv2 = createCanvas(600, 600);
+  cnv2.parent("canvasContainer2")
   ground = new Ground();
   covidSign = new CovidSign();
 
