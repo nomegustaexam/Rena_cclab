@@ -98,7 +98,7 @@ function draw() {
     text("We made it!", width/2, height/2);
     text("We've overcame this difficult semester!", width/2, height/2+50);
     textSize(15);
-    text("Refresh the page to start over again.", width/2, height/3)
+    text("You can return to the main calendar.", width/2, height/3)
     pop();
   }
   

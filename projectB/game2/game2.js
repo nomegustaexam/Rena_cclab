@@ -107,7 +107,7 @@ function draw() {
         );
         textSize(15);
         text(
-          "If you want, refresh the page to do another PCR test",
+          "You can return to the main calendar",
           width / 2,
           height / 2 + 30
         );
@@ -202,11 +202,7 @@ class Arrow {
   }
   update() {
     this.x -= this.speed;
-    // if (this.x <= -10) {
-    //   this.x = width;
-    //   // other.stepped = false;
-    //   // 🚨 you should set back all the "stepped" values of all the figures here
-    // }
+   
   }
   display() {
     push();
