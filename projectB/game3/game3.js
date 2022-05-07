@@ -4,7 +4,7 @@
 // https://www.flaticon.com/premium-icon/son_2880690?related_id=2880701&origin=search#
 
 let workload = 50;
-let emotionlevel = 10;
+let emotionlevel = 15;
 
 let img, girl, boy, shanghai;
 
@@ -32,11 +32,10 @@ function setup() {
 }
 
 function draw() {
-  background("#9fc0dd");
+  image(bgimg, 0, 0, 600, 600);
   
   if(experienceStarted == true){
-      image(bgimg, 0, 0, 600, 600);
-    
+      
       badManager.display();
       goodManager.display();
       homeworkManager.display();
@@ -73,21 +72,18 @@ function draw() {
       text("Emotion level", 100, 20);
       text("Homework level", 400, 20);
   }else{
+    background(87, 100, 175, 50);
     push();
     textAlign(CENTER);
     noStroke();
-    fill("#76a5af");
-    rect(width/7, height/2-90, width/1.4, 65);
-    textSize(25)
-    fill(0);
+    push();
+    fill("#D6E4E7");
+    rect(width/7, height/2-90, width/1.4, 65, 50);
+    pop();
+    textSize(23)
+    textStyle(BOLD);
+    fill("#253697");
     text("Click here to start the experience", width/2, height/2-50);
-    textSize(15);
-    text("Note:", width/2, height/2);
-    text("This is a semester students spent in lock down.",width/2, height/2+20)
-    text("To survive this semester,you need to collect 45 homework",width/2, height/2+40)
-    text("while keeping your emotional level above 0.",width/2, height/2+60)
-    text("Otherwise you will fail this semester.",width/2, height/2+80)
-    
     pop();
   }
 
@@ -100,7 +96,7 @@ function draw() {
     textSize(30);
     textAlign(CENTER);
     text("We made it!", width/2, height/2);
-    text("We've overcome this difficult semester!", width/2, height/2+50);
+    text("We've overcame this difficult semester!", width/2, height/2+50);
     textSize(15);
     text("Refresh the page to start over again.", width/2, height/3)
     pop();
