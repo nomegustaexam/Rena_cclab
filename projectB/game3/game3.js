@@ -3,7 +3,7 @@
 // https://www.flaticon.com/premium-icon/daughter_2880501?related_id=2880501#
 // https://www.flaticon.com/premium-icon/son_2880690?related_id=2880701&origin=search#
 
-let workload = 50;
+let workload = 40;
 let emotionlevel = 15;
 
 let img, girl, boy, shanghai;
