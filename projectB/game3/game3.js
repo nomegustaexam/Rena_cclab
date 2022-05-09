@@ -4,7 +4,7 @@
 // https://www.flaticon.com/premium-icon/son_2880690?related_id=2880701&origin=search#
 
 let workload = 40;
-let emotionlevel = 15;
+let emotionlevel = 25;
 
 let img, girl, boy, shanghai;
 
