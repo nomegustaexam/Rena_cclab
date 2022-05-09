@@ -56,9 +56,37 @@ canvas {
   background-color: rgba(240, 248, 255, 0);
   width: 600px;
   height: 600px;
-  text-align: center;
+  
   margin: auto;
   padding: 50px;
+  padding-bottom: 30px;
   position: relative;
+}
+
+.buttonColumn{
+  height: fit-content;
+  text-align: center;
+  width: 30%;
+  margin: auto;
+  margin-bottom: 80px;
+  margin-top: 0px;
+  padding: 0px;
+}
+
+.returnButton{
+ 
+  font-family: 'Caveat', cursive;
+  font-family: 'Radio Canada', sans-serif;
+  border-radius: 50px;
+  border: none;
+  margin: 0px;
+  padding: 20px 30px;
+
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  /* margin: 4px 2px; */
+  background-color: rgba(255, 255, 255, 0.33);
+  color: rgb(255, 255, 255);
 }
 
