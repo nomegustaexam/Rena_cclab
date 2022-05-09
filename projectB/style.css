@@ -76,6 +76,11 @@ html, body {
   color: white;
 }
 
+#one{
+  position: absolute;
+  top: 80%;
+  right: 25%;
+}
 
 
  

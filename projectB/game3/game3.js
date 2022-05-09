@@ -72,7 +72,7 @@ function draw() {
       text("Emotion level", 100, 20);
       text("Homework level", 400, 20);
   }else{
-    background(87, 100, 175, 50);
+    // background(87, 100, 175, 50);
     push();
     textAlign(CENTER);
     noStroke();

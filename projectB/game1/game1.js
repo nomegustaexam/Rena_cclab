@@ -122,6 +122,7 @@ function draw() {
       rect(0, 0, width, 30);
       textSize(14);
       fill(200, 200, 200);
+      textAlign(LEFT);
       text("Number of food ordered: " + counter, 20, 20);
       text("Level: " + setLevel, 340, 20);
     }
